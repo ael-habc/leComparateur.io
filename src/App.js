@@ -11,6 +11,7 @@ function App() {
     <main id="main">
       <NavBar />
       <Hero />
+      
     </main>
   );
 }

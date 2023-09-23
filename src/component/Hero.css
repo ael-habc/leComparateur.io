@@ -8,21 +8,96 @@
     padding-bottom: 0;
     overflow: visible;
     z-index: 16;
+    display: flex;
+    position: relative;
+    height: 545px;
 }
 .container {
     z-index: 16;
-    width: 50%;
+    width: 46%;
     background-color: rgba(255,255,255,0);
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin-top: 80px;
+    margin-top: 60px;
     margin-bottom: 120px;
     padding: 45px 31px 45px 45px;
-    position: relative;
-    bottom: -100px;
-    left: 700px;
     box-shadow: 0 0 10px rgba(83,83,83,.1);
+    position: absolute;
+    right: 50px;
+    top: 100px;
+    text-align: center;
+    animation: 1s fadeIn  ease-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
+.littleCard {
+    border-radius: 50px;
+    justify-content: center;
+    margin-bottom: 12px;
+    padding: 12px 21px;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    
+}
+.littleCard img {
+    width: 20px;
+    margin-right: 20px;
+}
+.light {
+    background-color: #ffffff;
+    border: 1px solid  #54c0eb;
+}
+
+.container h1 {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 41px;
+    margin-bottom: 30px;
+}
+.container span {
+    color: #54c0eb;
+    font-weight: 700;
+}
+.littleCard div p:nth-child(1) {
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 19px;
+}
+.phone {
+    color: #e4efff;
+    background-color: #54c0eb;
+}
+
+.whiteSlach {
+    background-color: white;
+    display: block;
+    bottom: -140px;
+    height: 460px;
+}
+.angle {
+    z-index: 2;
+    width: 120%;
+    height: 170px;
+    position: absolute;
+    left: -10%;
+    transform: rotate(-3deg);
+}
+
+/* add a moving animation */
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateX(+200px)
+
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+    
