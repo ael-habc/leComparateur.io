@@ -2,22 +2,16 @@ import "./App.css";
 
 // components
 import NavBar from "./component/NavBar";
+import Hero from "./component/Hero";
 
 //images
-import hero from "./assets/images/Hero.svg";
-
-
 
 function App() {
   return (
-    <>
+    <main id="main">
       <NavBar />
-      <main>
-        <div id="hero">
-          
-        </div>
-      </main>
-    </>
+      <Hero />
+    </main>
   );
 }
 

@@ -11,6 +11,7 @@ nav {
     right: 0;
     padding: 0 40px;
     box-shadow: 0 10px 10px 1px rgba(80,80,80,.05);
+    background-color: #fff;
 }
 #navLogo {
     display: flex;
