@@ -1,36 +1,70 @@
-# LeComparatoir.io
+# Getting Started with Create React App
 
-![Project Logo](src="https://uploads-ssl.webflow.com/63dd13d30fc9d9c57d36a615/6419f6d5a05ce5a46ba5d10d_63dda5d026234767e97718ec_Logo%20lecomparateurio-02.svg")
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-LeComparatoir.io is a web-based comparison tool that allows users to compare various products, services, or items side by side. Whether you're shopping for electronics, choosing a restaurant, or making any other decision that involves comparing options, LeComparatoir.io is here to simplify the process.
+## Available Scripts
 
-## Table of Contents
+In the project directory, you can run:
 
-- [Features](#features)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+### `npm start`
 
-## Features
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- **Side-by-Side Comparison:** Easily compare multiple items or services simultaneously.
-- **Customizable Criteria:** Define your own criteria for comparison.
-- **User-Friendly Interface:** Intuitive design for a seamless user experience.
-- **Save and Share:** Save your comparisons and share them with others.
-- **Responsive:** Works on both desktop and mobile devices.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Getting Started
+### `npm test`
 
-These instructions will help you set up a local development environment for LeComparatoir.io.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### Prerequisites
+### `npm run build`
 
-- Node.js: Make sure you have Node.js installed. You can download it from [nodejs.org](https://nodejs.org/).
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### Installation
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-1. Clone the repository:
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-   ```bash
-   git clone https://github.com/your-username/LeComparatoir.io.git
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
