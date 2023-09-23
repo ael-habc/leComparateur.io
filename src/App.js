@@ -12,8 +12,10 @@ function App() {
   return (
     <>
       <NavBar />
-      <main className="bg-['./assets/images/Hero.svg'] w-full h-300 mt-40">
-        jhiyiuyiuyu
+      <main>
+        <div id="hero">
+          
+        </div>
       </main>
     </>
   );

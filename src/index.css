@@ -1,21 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-body {
-  font-family: "Nunito", sans-serif;
-  font-size: 28px;
-  line-height: 41px;
-  vertical-align: baseline;
-  letter-spacing: normal;
-  word-spacing: 0px;
-  margin: 0px;
-  padding: 0px;
-  font-weight: 600;
-}
-li:hover {
-  cursor: pointer;
-  color: #54C0EB;
-}
+
 @font-face {
   font-family: Nonito;
   src: url(./assets/fonts/Nunito/Nunito-VariableFont_wght.ttf);
