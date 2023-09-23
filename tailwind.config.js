@@ -7,7 +7,11 @@ module.exports = {
       nonit: ["Nonit"]
     }
     ,
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'hero': "url('./assets/images/Hero.svg')",
+      }
+    },
   },
   plugins: [],
 };

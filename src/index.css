@@ -10,7 +10,11 @@ body {
   word-spacing: 0px;
   margin: 0px;
   padding: 0px;
-  font-weight: 700;
+  font-weight: 600;
+}
+li:hover {
+  cursor: pointer;
+  color: #54C0EB;
 }
 @font-face {
   font-family: Nonito;
