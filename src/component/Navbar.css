@@ -59,3 +59,15 @@ ul li:first-child {
     color: #54c0eb;
     font-weight: 700;
 }
+
+li a {
+    color: #212c42;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+li a:active {
+    color: #54c0eb;
+    font-weight: 700;
+    text-decoration: none;
+}

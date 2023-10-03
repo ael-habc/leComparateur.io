@@ -1,0 +1,43 @@
+.section {
+  color: #fff;
+  background-image: linear-gradient(#41596c, #41596c);
+  padding: 80px 24px;
+  width: 100%;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+  grid-auto-columns: 1fr;
+}
+
+.section > div {
+    padding: 0 25px;
+}
+
+.section > div:nth-child(2) {
+    border-left: #fff 1px solid;
+    border-right: #fff 1px solid;
+}
+
+.chiffre {
+  color: #54c0eb;
+  font-family: "Roboto", sans-serif;
+  line-height: 50px;
+  font-size: 60px;
+  font-weight: 900;
+  text-shadow: 2px 0 #54c0eb;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.section_text {
+    font-size: 21px;
+    font-weight: 900;
+    text-shadow: 0.5px 0 white;
+  letter-spacing: 0.5px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 28px;
+    text-align: center;
+}

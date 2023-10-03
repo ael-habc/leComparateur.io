@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 // import images
 import logo from "../assets/images/logo.svg";
@@ -13,10 +14,8 @@ export default function NavBar() {
       </div>
       <i></i>
       <ul id="navList">
-        <li>La Fibre</li>
-        <li>Sante Senior</li>
-        <li>Chien Chat</li>
-        <li>Internet</li>
+        <li> <a href='/'>La Fibre</a>  </li>
+        <li> <a href='internet'>Internet</a> </li>
       </ul>
     </nav>
   );

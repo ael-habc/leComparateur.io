@@ -2,8 +2,9 @@
     background-image: url(../assets/images/Hero.svg);
     background-color: #e4efff;
     background-position: 0 40%;
+    width: 100vw;
     background-repeat: no-repeat;
-    background-size: auto;
+    object-fit: fill;
     padding-top: 0;
     padding-bottom: 0;
     overflow: visible;
@@ -31,7 +32,6 @@
     text-align: center;
     animation: 1s fadeIn  ease-out;
     animation-iteration-count: 1;
-    animation-fill-mode: forwards;
 }
 .littleCard {
     border-radius: 50px;
@@ -75,16 +75,17 @@
 .whiteSlach {
     background-color: white;
     display: block;
-    bottom: -140px;
+    bottom: -130px;
     height: 460px;
 }
 .angle {
     z-index: 2;
-    width: 120%;
+    width: 111%;
     height: 170px;
     position: absolute;
     left: -10%;
     transform: rotate(-3deg);
+    
 }
 
 /* add a moving animation */
@@ -92,12 +93,12 @@
 @keyframes fadeIn {
     0% {
         opacity: 0;
-        transform: translateX(+200px)
+        /* transform: translateX(-200px) */
 
     }
     100% {
         opacity: 1;
-        transform: translateX(0);
+        /* transform: translateX(0); */
     }
 }
     

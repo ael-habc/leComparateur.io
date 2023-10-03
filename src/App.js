@@ -1,8 +1,17 @@
 import "./App.css";
 
+
+//dependencies
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 // components
 import NavBar from "./component/NavBar";
-import Hero from "./component/Hero";
+
+
+// pages
+import Home from "./pages/Home";
+import Internet from "./pages/Internet";
 
 //images
 
@@ -10,8 +19,13 @@ function App() {
   return (
     <main id="main">
       <NavBar />
-      <Hero />
-      
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/internet" element={<Internet />} />
+        </Routes>
+      </Router>
+
     </main>
   );
 }
