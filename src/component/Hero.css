@@ -43,14 +43,27 @@
     align-items: center;
     
 }
+
+
 .littleCard img {
     width: 20px;
     margin-right: 20px;
 }
+
 .light {
     background-color: #ffffff;
     border: 1px solid  #54c0eb;
+    transition: box-shadow .3s;
 }
+
+/* .light:hover {
+    box-shadow: 0 0 11px #54c0eb90; 
+}
+
+.phone:hover {
+    box-shadow: 0 0 11px #fff; 
+
+} */
 
 .container h1 {
     font-size: 34px;
@@ -93,12 +106,42 @@
 @keyframes fadeIn {
     0% {
         opacity: 0;
-        /* transform: translateX(-200px) */
+        transform: translateX(+400px)
 
     }
     100% {
         opacity: 1;
-        /* transform: translateX(0); */
+        transform: translateX(0);
+    }
+}
+
+@media  (max-width: 768px) {
+    #hero {
+        background-position: -700px 40%;
+        display:  flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .container {
+        width: 90%;
+        background-color: white;
+        position: static;
+        margin-top: 110px;
+        height: fit-content;
+    }
+}
+
+@media (max-width:426px) {
+    .container h1 {
+        font-size: 23px;
+    }
+    .littleCard div p:nth-child(1) {
+        font-size: 15px;
+        line-height: 15px;
+    }
+    .littleCard div p:nth-child(2) {
+        font-size: 13px;
+        line-height: 13px;
     }
 }
     

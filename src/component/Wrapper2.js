@@ -11,7 +11,7 @@ export default function Wrapper2() {
         Trouvez l’offre Fibre la plus adaptée à vos besoins en un appel gratuit
         avec un conseiller ✔️
       </p>
-      <br/>
+
       <div className="littleCard light" id="dark_phone">
           <img src={phone} alt="phone" />
           <div>

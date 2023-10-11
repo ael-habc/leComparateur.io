@@ -10,7 +10,7 @@
 .wrapper h2 {
     text-align: center;
     width: 70%;
-    font-size: 36px;
+    font-size: 24px;
     font-weight: 400;
 }
 .wrapper h2 span {
@@ -65,4 +65,21 @@
     line-height: 24px;
     font-weight: 400;
     font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width: 768px) {
+    .cards {
+        flex-direction: column;
+        gap: 0;
+    }
+    .card {
+        max-width: 100%;
+        margin-bottom: 0;
+    }
+    .card:nth-child(2) {
+        margin-top: 32px;
+    }
+    .wrapper img {
+        height: 80px;
+    }
 }

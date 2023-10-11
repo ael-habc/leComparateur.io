@@ -1,73 +1,139 @@
 nav {
-    display: flex;
-    width: 100vw;
-    height: 104px;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    padding: 0 40px;
-    box-shadow: 0 10px 10px 1px rgba(80,80,80,.05);
-    background-color: #fff;
+  display: flex;
+  width: 100vw;
+  height: 104px;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0 40px;
+  box-shadow: 0 10px 10px 1px rgba(80, 80, 80, 0.05);
+  background-color: #fff;
 }
 #navLogo {
-    display: flex;
-    width: 50vw;
-    justify-content: flex-start;
-    align-items: center;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    gap: 2px;
+  display: flex;
+  width: 50vw;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 2px;
 }
 #title {
-    font-size: 28px;
-    font-weight: 700;
-    color: #212c42;
-    line-height: 41px;
-    cursor: pointer;
+  font-size: 28px;
+  font-weight: 700;
+  color: #212c42;
+  line-height: 41px;
+  cursor: pointer;
 }
 #navList {
-    display: flex;
-    width: 50vw;
-    justify-content: space-around;
-    align-items: center;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  display: flex;
+  width: 50vw;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 #logo {
-    width: 50px;
-    margin-right: 10px;
+  width: 50px;
+  margin-right: 10px;
 }
 li {
-    font-size: 20px;
-    font-weight: 600;
-    color: #000;
-    line-height: 24px;
-    cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+  line-height: 24px;
+  cursor: pointer;
 }
 li:hover {
-    color:#54c0eb;
+  color: #54c0eb;
 }
 
 ul li:first-child {
-    color: #54c0eb;
-    font-weight: 700;
+  color: #54c0eb;
+  font-weight: 700;
 }
 
 li a {
-    color: #212c42;
-    font-weight: 600;
-    text-decoration: none;
+  color: #212c42;
+  font-weight: 600;
+  text-decoration: none;
 }
 
 li a:active {
-    color: #54c0eb;
-    font-weight: 700;
-    text-decoration: none;
+  color: #54c0eb;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+#burgerMenu {
+  font-size: 30px;
+  display: none;
+}
+#btnControl {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  #navList {
+    display: none;
+    position: absolute;
+    width: 100vw;
+    top: 104px;
+    left: 0;
+    transition: 2s;
+  }
+  #burgerMenu {
+    display: block;
+  }
+  #btnControl:checked ~ #navList {
+    display: block;
+    background-color: #fff;
+    animation: fadeInNav 1s ease-out;
+  }
+  #btnControl:not(:checked) ~ #navList {
+    background-color: #fff;
+    animation: fadeOutNav 3s ease-out;
+  }
+  nav {
+    gap: 10px;
+    padding: 0 10px;
+  }
+
+  #navlogo {
+    width: 50%;
+  }
+  #title {
+    font-size:20px
+  }
+  
+}
+
+@keyframes fadeInNav {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fadeOutNav {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  50% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    display: none;
+  }
 }

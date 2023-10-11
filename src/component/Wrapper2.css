@@ -2,17 +2,17 @@
   background: linear-gradient(#41596c, #41596c),
     url(https://uploads-ssl.webflow.com/63dd13d30fc9d9c57d36a615/63dd13d30fc9d9545436a6bf_backgorund-blocks.svg);
   background-size: cover;
-    background-position: center;
-    width: 100vw;
-    height: 500px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding:  200px 20% 120px 20%;
-    position: relative;
-    z-index: 1;
+  background-position: center;
+  width: 100vw;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 200px 20% 130px 20%;
+  position: relative;
+  z-index: 1;
 }
 
 .contact {
@@ -20,47 +20,65 @@
   font-size: 28px;
   color: #fff;
   line-height: 40px;
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 #dark_phone {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
-
 #dark_phone img {
-    width: 35px;
-    margin-right: 10px;
-    max-width: 100%;
+  width: 35px;
+  margin-right: 10px;
+  max-width: 100%;
 }
 
 .whiteSlach1 {
-    background-color: white;
-    display: block;
-    bottom: 460px;
+  background-color: white;
+  display: block;
+  bottom: 460px;
 }
 .angle1 {
-    z-index: 2;
-    width: 111%;
-    height: 130px;
-    position: absolute;
-    left: -10%;
-    transform: rotate(-3deg);
-    
+  z-index: 2;
+  width: 111%;
+  height: 130px;
+  position: absolute;
+  left: -10%;
+  transform: rotate(-3deg);
 }
 
 .whiteSlach2 {
-    background-color: white;
-    display: block;
-    bottom: -135px;
-    height: 460px;
+  background-color: white;
+  display: block;
+  bottom: -135px;
+  height: 460px;
 }
 .angle2 {
-    z-index: 2;
-    width: 111%;
-    height: 170px;
-    position: absolute;
-    left: -10%;
-    transform: rotate(-3deg);
+  z-index: 2;
+  width: 111%;
+  height: 170px;
+  position: absolute;
+  left: -10%;
+  transform: rotate(-3deg);
+}
+
+@media (max-width: 768px) {
+  #section2 br {
+    display: none;
+  }
+  .contact {
+    margin-bottom: 10px;
+    font-size: 19px;
+  }
+
+  #wrapper2 {
+    padding: 30px 10% 30px 10%;
+    height: 300px;
+  }
+  .whiteSlach1,
+  .whiteSlach2,
+  .whiteSlach {
+    display: none;
+  }
 }
