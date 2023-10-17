@@ -41,7 +41,7 @@ nav {
 }
 
 #logo {
-  width: 50px;
+  width: 210px;
   margin-right: 10px;
 }
 li {
@@ -51,8 +51,8 @@ li {
   line-height: 24px;
   cursor: pointer;
 }
-li:hover {
-  color: #54c0eb;
+li a:hover {
+  color: #F8A73D;
 }
 
 ul li:first-child {
@@ -67,7 +67,7 @@ li a {
 }
 
 li a:active {
-  color: #54c0eb;
+  color: #F8A73D;
   font-weight: 700;
   text-decoration: none;
 }

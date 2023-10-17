@@ -1,7 +1,7 @@
 import React from "react";
 
 // import images
-import logo from "../assets/images/logo.svg";
+import logo from "../assets/images/logo2.png";
 import "./Navbar.css";
 
 // import burger menu from bootstrap-icons
@@ -12,7 +12,8 @@ export default function NavBar() {
     <nav>
       <div id="navLogo">
         <img src={logo} alt="Logo" id="logo" />
-        <h1 id="title">lecomparateur.io</h1>
+
+        {/* <h1 id="title">lecomparateur.io</h1> */}
       </div>
       <input type="checkbox" id="btnControl" />
       <label class="btn" for="btnControl">

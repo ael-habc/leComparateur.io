@@ -1,6 +1,6 @@
 #hero {
-    background-image: url(../assets/images/Hero.svg);
-    background-color: #e4efff;
+    background-image: url(../assets/images/hero2.svg);
+    background-color: #fae5ce;
     background-position: 0 40%;
     width: 100vw;
     background-repeat: no-repeat;
@@ -52,7 +52,7 @@
 
 .light {
     background-color: #ffffff;
-    border: 1px solid  #54c0eb;
+    border: 1px solid  #F8A73D;
     transition: box-shadow .3s;
 }
 
@@ -72,7 +72,7 @@
     margin-bottom: 30px;
 }
 .container span {
-    color: #54c0eb;
+    color: #FFB366;
     font-weight: 700;
 }
 .littleCard div p:nth-child(1) {
@@ -81,8 +81,8 @@
     line-height: 19px;
 }
 .phone {
-    color: #e4efff;
-    background-color: #54c0eb;
+    color: #ffffff;
+    background-color: #F8A73D;
 }
 
 .whiteSlach {

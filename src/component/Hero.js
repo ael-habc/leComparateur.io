@@ -10,8 +10,8 @@ export default function Hero() {
     <div id="hero">
       <div className="container">
         <h1>
-          Trouvez le meilleur <span> opérateur </span>pour une connexion <span> internet très haut débit</span>
-          
+          Trouvez le meilleur <span> opérateur </span>pour une connexion{" "}
+          <span> internet très haut débit</span>
         </h1>
         <div className="littleCard light">
           <img src={light} alt="light" />
