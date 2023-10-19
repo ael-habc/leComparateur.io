@@ -25,7 +25,7 @@
 
 #dark_phone {
   max-width: 100%;
-  height: auto;
+  height: 55px;
 }
 
 #dark_phone img {
@@ -68,6 +68,9 @@
   text-decoration: none;
   margin-bottom: 40px;
 }
+/* .linkPhone:hover {
+  box-shadow: 0 10px 10px rgba(255, 253, 253, 0.3);
+} */
 
 @media (max-width: 768px) {
   #section2 br {

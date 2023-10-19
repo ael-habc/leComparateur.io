@@ -8,13 +8,13 @@ export default function Wrapper2() {
     <div id="wrapper2">
       <div className="whiteSlach1 angle1"></div>
       <p className="contact">
-        Trouvez l’offre Fibre la plus adaptée à vos besoins en un appel gratuit
-        avec un conseiller ✔️
+        Découvrez l'offre Internet par fibre parfaitement ajustée à vos besoins
+        en seulement 2 clics. ✔️
       </p>
 
       <a href="/internet" className="linkPhone">
         <div className="littleCard light" id="dark_phone">
-          <img src={phone} alt="phone" />
+          {/* <img src={phone} alt="phone" /> */}
           <div>
             <p>Comparez les offres box internet</p>
             {/* <p>0637179071</p> */}
