@@ -41,7 +41,7 @@ export default function Wrapper() {
           <h3>Remise de -55% pendant 1 an</h3>
           <p>
             Avec les promotions en cours, vous pourriez{" "}
-            <strong> économiser jusqu'à 300€</strong> la première année.
+            <strong> économiser jusqu'à 250€</strong> la première année.
           </p>
         </div>
       </div>

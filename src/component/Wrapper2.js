@@ -12,12 +12,13 @@ export default function Wrapper2() {
         avec un conseiller ✔️
       </p>
 
-      <a href="tel:063717907" className="linkPhone">
+      <a href="/internet" className="linkPhone">
         <div className="littleCard light" id="dark_phone">
           <img src={phone} alt="phone" />
           <div>
-            <p>0637179071</p>
-            <p>Le fibre avec mailleur prix</p>
+            <p>Comparez les offres box internet</p>
+            {/* <p>0637179071</p> */}
+            {/* <p>Le fibre avec mailleur prix</p> */}
           </div>
         </div>
       </a>

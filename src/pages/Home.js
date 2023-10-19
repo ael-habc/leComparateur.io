@@ -18,7 +18,9 @@ export default function Home() {
       <Wrapper2 />
       <Wrapper3 />
       <Section />
-      <Section2 />
+      <br/>
+      <br/>
+      {/* <Section2 /> */}
     </div>
   )
 }

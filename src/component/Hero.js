@@ -11,23 +11,25 @@ export default function Hero() {
       <div className="container">
         <h1>
           Comparez les <span> opérateurs </span>internet pour trouver celui qui
-          vous offre 
+          vous offre
           <span>la meilleure connexion internet très haut débit</span>
         </h1>
-        <div className="littleCard light">
-          <img src={light} alt="light" />
-          <div>
-            <p>Quelle Box fibre choisir ?</p>
-            <p>Comparez les offres box internet</p>
+        <a href="/internet">
+          <div className="littleCard light">
+            <img src={light} alt="light" />
+            <div>
+              <p>Quelle Box fibre choisir ?</p>
+              <p>Comparez les offres box internet</p>
+            </div>
           </div>
-        </div>
-        <div className="littleCard phone">
+        </a>
+        {/* <div className="littleCard phone">
           <img src={phone} alt="light" />
           <div>
             <p>Quelle Box fibre choisir ?</p>
             <p>Comparez les offres box internet</p>
           </div>
-        </div>
+        </div> */}
       </div>
       <div className="whiteSlach angle"></div>
     </div>

@@ -25,21 +25,23 @@ export default function Wrapper3() {
           <img src={sec2_1} alt="card1" />
           {/* <img src={icon3} alt="card1" /> */}
 
-          <h3 id="sec2">Appelez nos conseillers fibre du lundi au vendredi de 10h à 20h</h3>
+          {/* <h3 id="sec2">Appelez nos conseillers fibre du lundi au vendredi de 10h à 20h</h3> */}
+          <h3 id="sec2">Parlez à nos conseillers en fibre internet du lundi au vendredi de 10h à 20h</h3>
+
         </div>
         <div className="card2">
           <img src={sec2_2} alt="card2" />
           {/* <img src={icon4} alt="card2" /> */}
           
           <h3 id="sec2">
-            Comparez les box pour trouver l'offre parfaite au meilleur prix !
+            Comparez les box et trouvez l'offre parfaite adaptée à vos besoins et votre budget !
           </h3>
         </div>
         <div className="card2">
           <img src={sec2_3} alt="card3" />
           {/* <img src={icon4} alt="card3" /> */}
 
-          <h3 id="sec2">Vous choisissez l'offre qui vous convient, on s'occupe du reste</h3>
+          <h3 id="sec2">Choisissez l'offre qui vous convient parfaitement, nous prenons en charge le reste</h3>
         </div>
       </div>
     </div>
