@@ -1,7 +1,7 @@
 #hero {
-    background-image: url(../assets/images/hero2.svg);
+    background-image: url(../assets/images/undraw.svg);
     background-color: #fae5ce;
-    background-position: 0 40%;
+    background-position: -120px 300%;
     width: 100vw;
     background-repeat: no-repeat;
     object-fit: fill;
@@ -88,7 +88,7 @@
 .whiteSlach {
     background-color: white;
     display: block;
-    bottom: -130px;
+    bottom: -160px;
     height: 460px;
 }
 .angle {

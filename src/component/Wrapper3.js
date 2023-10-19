@@ -5,6 +5,12 @@ import "./Wrapper3.css";
 import sec2_1 from "../assets/images/sec2-1.svg";
 import sec2_2 from "../assets/images/sec2-2.svg";
 import sec2_3 from "../assets/images/sec2-3.svg";
+
+// import icon3 from "../assets/images/icon3.gif";
+// import icon4 from "../assets/images/icon4.gif";
+// import icon5 from "../assets/images/icon5.gif";
+
+
 export default function Wrapper3() {
   return (
     <div className="wrapper3">
@@ -17,16 +23,22 @@ export default function Wrapper3() {
       <div className="cards2">
         <div className="card2" id="card1">
           <img src={sec2_1} alt="card1" />
+          {/* <img src={icon3} alt="card1" /> */}
+
           <h3 id="sec2">Appelez nos conseillers fibre du lundi au vendredi de 10h à 20h</h3>
         </div>
         <div className="card2">
           <img src={sec2_2} alt="card2" />
+          {/* <img src={icon4} alt="card2" /> */}
+          
           <h3 id="sec2">
             Comparez les box pour trouver l'offre parfaite au meilleur prix !
           </h3>
         </div>
         <div className="card2">
           <img src={sec2_3} alt="card3" />
+          {/* <img src={icon4} alt="card3" /> */}
+
           <h3 id="sec2">Vous choisissez l'offre qui vous convient, on s'occupe du reste</h3>
         </div>
       </div>

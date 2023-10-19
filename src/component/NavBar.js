@@ -11,8 +11,9 @@ export default function NavBar() {
   return (
     <nav>
       <div id="navLogo">
-        <img src={logo} alt="Logo" id="logo" />
-
+        <a href="/">
+          <img src={logo} alt="Logo" id="logo" />
+        </a>
         {/* <h1 id="title">lecomparateur.io</h1> */}
       </div>
       <input type="checkbox" id="btnControl" />

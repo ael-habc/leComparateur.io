@@ -19,7 +19,6 @@ export default function Home() {
       <Wrapper3 />
       <Section />
       <Section2 />
-      <Footer />
     </div>
   )
 }

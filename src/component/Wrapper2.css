@@ -63,6 +63,12 @@
   transform: rotate(-3deg);
 }
 
+.linkPhone {
+  color: #41596c;
+  text-decoration: none;
+  margin-bottom: 40px;
+}
+
 @media (max-width: 768px) {
   #section2 br {
     display: none;
@@ -82,3 +88,5 @@
     display: none;
   }
 }
+
+

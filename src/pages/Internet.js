@@ -1,8 +1,8 @@
 import React from "react";
-
+ import "./Internet.css";
 export default function Internet() {
   return (
-    <div style={{ width: "100%", height: "100vh" }}>
+    <div style={{ width: "100%", height: "100vh" }} className="internet">
       {/* Embedding Landbot chatbot using iframe */}
       <iframe
         title="Landbot Chatbot"

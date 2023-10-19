@@ -5,7 +5,7 @@
     align-items: center;
     z-index: 20;
     position: relative;
-    margin: 70px 0 ;
+    margin: 120px 0 ;
 }
 .wrapper h2 {
     text-align: center;
@@ -81,5 +81,8 @@
     }
     .wrapper img {
         height: 80px;
+    }
+    .wrapper {
+        padding-top: 120px;
     }
 }
